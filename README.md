@@ -1,5 +1,5 @@
 # ThaiCoref
-The repository contains the ThaiCoref dataset, the largest dataset for coreference resolution in Thai language. It also includes a model trained on this data, described in the paper  ["ThaiCoref: Thai Coreference Resolution Dataset"](https://arxiv.org/abs/2406.06000).
+The repository contains the ThaiCoref dataset, the largest dataset for coreference resolution in Thai language. It also includes a model trained on this data, described in the paper  ["ThaiCoref: Thai Coreference Resolution Dataset"](https://link.springer.com/article/10.1007/s10579-025-09898-1).
 
 ## Abstract 
 Coreference resolution is a crucial NLP task that identifies groups of words referring to the same entity. While well-studied for other languages, Thai coreference research has been limited due to a lack of large, annotated datasets. ThaiCoref fills this gap with over 777,000 tokens, 44,000 mentions, and 10,400 entities across various text types like essays, news articles, speeches, and Wikipedia entries. The annotation scheme is based on the OntoNotes benchmark, with adjustments for Thai-specific features.
@@ -10,13 +10,15 @@ The repository also offers a model trained using this dataset with cross-lingual
 ## Cite
 If you use this code in your research, please cite our paper:
 ```
-@misc{trakuekul2024thaicoref,
-      title={ThaiCoref: Thai Coreference Resolution Dataset}, 
-      author={Pontakorn Trakuekul and Wei Qi Leong and Charin Polpanumas and Jitkapat Sawatphol and William Chandra Tjhi and Attapol T. Rutherford},
-      year={2024},
-      eprint={2406.06000},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{trakuekul2026thaicoref,
+  title={Thaicoref: Thai coreference resolution dataset},
+  author={Trakuekul, Pontakorn and Leong, Wei Qi and Polpanumas, Charin and Sawatphol, Jitkapat and Tjhi, William Chandra and Rutherford, Attapol T},
+  journal={Language Resources and Evaluation},
+  volume={60},
+  number={1},
+  pages={16},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
